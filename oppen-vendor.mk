@@ -28,6 +28,10 @@ PRODUCT_COPY_FILES += \
     vendor/amlogic/oppen/proprietary/vendor/lib/teetz/ff2a4bea-ef6d-11e6-89cc-d4ae52a7b3b3.ta:$(TARGET_COPY_OUT_VENDOR)/lib/teetz/ff2a4bea-ef6d-11e6-89cc-d4ae52a7b3b3.ta
 
 PRODUCT_PACKAGES += \
+    lib_android_keymaster_akeymint_utils \
+    libacppcose_rkp \
+    libakeymint \
+    libakeymint_remote_prov_support \
     libamavutils \
     liboemcrypto \
     libsecmem \
